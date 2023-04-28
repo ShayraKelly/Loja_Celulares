@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.704);
+    color: white;
+    text-align: center;
+    background-image: url(https://img.freepik.com/vetores-gratis/diagrama-de-linhas-de-circuito-de-tecnologia-futurista_1017-29746.jpg?w=826&t=st=1682611826~exp=1682612426~hmac=7e3ee159d49017dc6009a7b8950e551dc99464158bf071c5683f372da973b1de);
+    background-blend-mode: overlay;
+}
+
+.Início{
+    background-color: rgba(127, 255, 212, 0.089);
+    text-align: center;
+}
+
+.marcas{
+    display: block;
+
+}
+
+.logo{
+    display: inline-block;
+    position: relative;
+    width: 30%;
+    height: 16vh;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.marcas{
+    object-fit: cover;
+    text-align: center;
+}
+
+.samsung img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.xiaomi img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+}
+
+.apple img{
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+ }
+
+ .titulo{
+    color: rgba(255, 255, 255, 0.799);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 250%;
+    text-align: center;
+    background-color: #035aa643;
+}
